@@ -1,6 +1,5 @@
 # GNU Make for Windows
 
-[English version below]
 
 ---
 
@@ -24,3 +23,42 @@
 4. Проверьте работу:
    ```cmd
    make --version
+
+
+
+
+
+
+
+
+
+# GNU Make for Windows
+
+**Portable GNU Make 4.4.1 build for Windows x64**
+
+This is a portable build of GNU Make compiled from official sources. No installation required — just download and run.
+
+---
+
+## 📦 Contents
+
+- `make.exe` — GNU Make 4.4.1 executable
+- `libintl-8.dll` — localization library (GNU Gettext)
+- `libiconv-2.dll` — charset conversion library (GNU libiconv)
+
+---
+
+## 🚀 Quick Start
+
+### 1. Download
+Clone this repository or download the ZIP archive.
+
+### 2. Place files
+Put all files in any folder (e.g., `C:\make`).
+
+### 3. Add to PATH (optional)
+To run `make` from any folder, add the folder to your `PATH`:
+
+**Command line (temporary):**
+```cmd
+set PATH=%PATH%;C:\path\to\folder
