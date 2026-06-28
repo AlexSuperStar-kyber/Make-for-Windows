@@ -1,2 +1,26 @@
-# Make-for-Windows
- GNU Make 4.4.1 portable build for Windows x64. Just download and run. Built from official sources.
+# GNU Make for Windows
+
+[English version below]
+
+---
+
+## 🇷🇺 Русская версия
+
+**Портативная сборка GNU Make 4.4.1 для Windows x64**
+
+Это портативная версия GNU Make, собранная из официальных исходников. Не требует установки — просто скачайте и используйте.
+
+### 📦 Содержимое
+
+- `make.exe` — исполняемый файл GNU Make 4.4.1
+- `libintl-8.dll` — библиотека для локализации (GNU Gettext)
+- `libiconv-2.dll` — библиотека для конвертации кодировок (GNU libiconv)
+
+### 🚀 Как использовать
+
+1. Скачайте файлы из этого репозитория.
+2. Поместите их в любую папку (например, `C:\make`).
+3. Добавьте эту папку в `PATH`, чтобы запускать `make` из любой папки.
+4. Проверьте работу:
+   ```cmd
+   make --version
